@@ -1,11 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T08:14:13.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3JBAARomZv7vxqeMWGLo" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T08:43:23.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="aRE9U7Q1MTTY1BPXXea2" version="20.8.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1314" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6bPCbO9TS993li9CQj1C-1" value="埋点数仓" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=18;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="340" y="230" width="160" height="130" as="geometry" />
+          <mxGeometry x="340" y="210" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-6" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png;fillStyle=solid;fontFamily=Tahoma;fontSize=18;fillColor=#D5E8D4;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-12" value="Android" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6bPCbO9TS993li9CQj1C-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="110" as="sourcePoint" />
+            <mxPoint x="320" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-13" value="IOS" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6bPCbO9TS993li9CQj1C-1">
+          <mxGeometry x="0.0212" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="347.204720749063" y="316.1643666928833" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#005700;fillStyle=solid;fontFamily=Tahoma;fontSize=18;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="45" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-15" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#000000;fillStyle=solid;fontFamily=Tahoma;fontSize=18;fillColor=#6680b8;fontColor=#ffffff;gradientColor=#DADFE8;gradientDirection=west;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-16" value="" style="image;html=1;image=img/lib/clip_art/computers/Monitor_128x128.png;fillStyle=solid;fontFamily=Tahoma;fontSize=18;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-17" value="Windows" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;exitX=1.038;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6bPCbO9TS993li9CQj1C-16" target="6bPCbO9TS993li9CQj1C-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="360" as="sourcePoint" />
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bPCbO9TS993li9CQj1C-18" value="Mac" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Tahoma;fontSize=18;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6bPCbO9TS993li9CQj1C-6" target="6bPCbO9TS993li9CQj1C-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="540" as="sourcePoint" />
+            <mxPoint x="290" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
