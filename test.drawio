@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:28:16.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="W1p4akBYOQstKwFYvb8q" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:37:34.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1d5veLAH_I8DP7qQaLJE" version="20.8.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1877" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,18 +63,16 @@
         <mxCell id="2mw2rvQoLvaJuhNXDKAa-6" value="业务子系统" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=17;width=100;height=50;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="652" y="466" width="400" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="2mw2rvQoLvaJuhNXDKAa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=17;fontColor=#000000;" parent="1" source="2mw2rvQoLvaJuhNXDKAa-15" edge="1">
+        <mxCell id="2mw2rvQoLvaJuhNXDKAa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=17;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="437" y="344" as="targetPoint" />
+            <mxPoint x="437" y="516" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dOnU5tf8oHeigr8frDzG-12" value="服务端埋点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="2mw2rvQoLvaJuhNXDKAa-17">
           <mxGeometry x="-0.0336" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2mw2rvQoLvaJuhNXDKAa-15" value="服务端&lt;br&gt;Service" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=17;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="387" y="516" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2mw2rvQoLvaJuhNXDKAa-19" value="URS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontSize=17;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="672" y="536" width="100" height="60" as="geometry" />
@@ -85,9 +83,9 @@
         <mxCell id="2mw2rvQoLvaJuhNXDKAa-21" value="日志查询" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontSize=17;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="902" y="506" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dOnU5tf8oHeigr8frDzG-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2mw2rvQoLvaJuhNXDKAa-15">
+        <mxCell id="dOnU5tf8oHeigr8frDzG-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="622" y="526" as="sourcePoint" />
+            <mxPoint x="487" y="566" as="sourcePoint" />
             <mxPoint x="642" y="566" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -124,6 +122,12 @@
         </mxCell>
         <mxCell id="dOnU5tf8oHeigr8frDzG-10" value="收发记录" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontSize=17;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="882" y="576" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dOnU5tf8oHeigr8frDzG-15" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;rounded=1;shadow=0;glass=0;sketch=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="390" y="526" width="100" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="dOnU5tf8oHeigr8frDzG-16" value="服务端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="650.0017391304348" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
