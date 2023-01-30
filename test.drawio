@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:37:34.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1d5veLAH_I8DP7qQaLJE" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T06:40:11.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bFKeFje3khDa6dra4MrS" version="20.8.13" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1643" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2mw2rvQoLvaJuhNXDKAa-12" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;查询方式原始&lt;br&gt;主要为SQL + BI&lt;br&gt;不够便捷&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontColor=#000000;" parent="2mw2rvQoLvaJuhNXDKAa-10" vertex="1" connectable="0">
+        <mxCell id="2mw2rvQoLvaJuhNXDKAa-12" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;查询方式主要&lt;br&gt;为SQL&amp;amp;BI&lt;br&gt;不够便捷&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontColor=#000000;" parent="2mw2rvQoLvaJuhNXDKAa-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1974" y="2" relative="1" as="geometry">
             <mxPoint x="37" y="2" as="offset" />
           </mxGeometry>
@@ -61,7 +61,7 @@
           <mxGeometry x="782" y="211" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2mw2rvQoLvaJuhNXDKAa-6" value="业务子系统" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=17;width=100;height=50;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="652" y="466" width="400" height="200" as="geometry" />
+          <mxGeometry x="650" y="480" width="400" height="190" as="geometry" />
         </mxCell>
         <mxCell id="2mw2rvQoLvaJuhNXDKAa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=17;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -101,14 +101,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dOnU5tf8oHeigr8frDzG-11" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;简化查询方式&lt;br&gt;丰富查询能力&lt;br&gt;逐步取代SQL方式&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dOnU5tf8oHeigr8frDzG-3">
+        <mxCell id="dOnU5tf8oHeigr8frDzG-11" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;简化查询方式&lt;br&gt;丰富查询能力&lt;br&gt;逐步取代SQL&amp;amp;BI方式&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dOnU5tf8oHeigr8frDzG-3">
           <mxGeometry x="0.1854" y="4" relative="1" as="geometry">
             <mxPoint x="4" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dOnU5tf8oHeigr8frDzG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6bPCbO9TS993li9CQj1C-1">
+        <mxCell id="dOnU5tf8oHeigr8frDzG-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="632" y="346" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="sourcePoint" />
             <mxPoint x="642" y="556" as="targetPoint" />
           </mxGeometry>
         </mxCell>
