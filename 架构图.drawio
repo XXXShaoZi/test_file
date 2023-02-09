@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T09:16:48.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sD8vKbC7K0zgFJ2ZCiSF" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T09:34:14.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S-SMC-ksMIOKQVa4UuQt" version="20.8.16" type="github">
   <diagram name="第 1 页" id="2nAb0u1-YzaInm_sDZ79">
-    <mxGraphModel dx="1752" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,21 +60,6 @@
         </mxCell>
         <mxCell id="iQFqdgRRREuayjvxUjkA-7" value="日志自动化分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-25">
           <mxGeometry x="106.72000000000003" y="80" width="96.8" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iQFqdgRRREuayjvxUjkA-78" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="430" y="810" width="1070" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="iQFqdgRRREuayjvxUjkA-155" value="" style="group" vertex="1" connectable="0" parent="iQFqdgRRREuayjvxUjkA-78">
-          <mxGeometry width="1070.0000000000002" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="iQFqdgRRREuayjvxUjkA-10" value="" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#ade4a9;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-155">
-          <mxGeometry width="1059.5098039215688" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="iQFqdgRRREuayjvxUjkA-1" value="日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-155">
-          <mxGeometry x="24.356547216587792" y="11" width="499.30921794004973" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iQFqdgRRREuayjvxUjkA-2" value="埋点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-155">
-          <mxGeometry x="548.0223123732252" y="10" width="487.13094433175576" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iQFqdgRRREuayjvxUjkA-156" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="180" y="550" width="240" height="340" as="geometry" />
@@ -174,6 +159,18 @@
         </mxCell>
         <mxCell id="iQFqdgRRREuayjvxUjkA-129" value="其他技术指标监控" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1333" y="642" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQFqdgRRREuayjvxUjkA-235" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="430" y="810" width="1059.5098039215688" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQFqdgRRREuayjvxUjkA-10" value="" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#ade4a9;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-235">
+          <mxGeometry width="1059.5098039215688" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQFqdgRRREuayjvxUjkA-1" value="日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-235">
+          <mxGeometry x="24.356547216587785" y="11" width="499.30921794004973" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQFqdgRRREuayjvxUjkA-2" value="埋点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="iQFqdgRRREuayjvxUjkA-235">
+          <mxGeometry x="548.0223123732252" y="10" width="487.13094433175576" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
