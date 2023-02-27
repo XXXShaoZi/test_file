@@ -1,46 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:02:16.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AVisd2_LRKtdm-S8OOs-" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:20:04.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7C5qrk8_8RxGD8d0Hgdu" version="20.8.23" type="github">
   <diagram name="第 1 页" id="vMa4NFbPt_UTWD2TFWcF">
-    <mxGraphModel dx="2022" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1546" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;fillColor=none;dashed=1;strokeColor=#808080;opacity=40;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="196.5" width="550" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-1" value="Log Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="750" y="567.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="494" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Remoter Config&amp;nbsp; Syncer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="476" y="366.5" width="190" height="66" as="geometry" />
+          <mxGeometry x="436" y="293" width="190" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="3TFgaIHxnkiX9_0JiwJC-3" value="被动触发配置更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;shape=flexArrow;strokeColor=#CCCCCC;fillColor=#ffe6cc;" parent="1" edge="1">
-          <mxGeometry x="-0.0037" y="10" width="80" relative="1" as="geometry">
-            <mxPoint x="220" y="597.5" as="sourcePoint" />
-            <mxPoint x="520" y="597.1" as="targetPoint" />
+        <mxCell id="3TFgaIHxnkiX9_0JiwJC-3" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;shape=flexArrow;strokeColor=#CCCCCC;fillColor=#ffe6cc;" parent="1" edge="1">
+          <mxGeometry x="-0.0067" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="523.5" as="sourcePoint" />
+            <mxPoint x="480" y="523.6" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TFgaIHxnkiX9_0JiwJC-5" value="主动触发配置更新&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#999999&quot;&gt;前后台切换/冷热启动/帐号变更&lt;br&gt;等用户操作时机，主动更新一次服务端配置&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;shape=flexArrow;startArrow=none;strokeColor=#CCCCCC;fillColor=#ffe6cc;" parent="1" edge="1">
+        <mxCell id="3TFgaIHxnkiX9_0JiwJC-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Tahoma;fontSize=18;shape=flexArrow;startArrow=none;strokeColor=#CCCCCC;fillColor=#ffe6cc;" parent="1" edge="1">
           <mxGeometry x="-0.5714" width="80" relative="1" as="geometry">
-            <mxPoint x="570" y="812.5" as="sourcePoint" />
-            <mxPoint x="569.6" y="672.5" as="targetPoint" />
+            <mxPoint x="530" y="776.5" as="sourcePoint" />
+            <mxPoint x="529.6" y="599" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-8" value="客户端本地日志" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="749" y="754.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="709" y="681" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-9" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="810" y="635.5" as="sourcePoint" />
-            <mxPoint x="810" y="745.5" as="targetPoint" />
+            <mxPoint x="770" y="562" as="sourcePoint" />
+            <mxPoint x="770" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-12" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="596.5" as="sourcePoint" />
-            <mxPoint x="1070" y="596.5" as="targetPoint" />
+            <mxPoint x="840" y="523" as="sourcePoint" />
+            <mxPoint x="1030" y="523" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-17" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1062.5" y="750" width="170" height="110" as="geometry" />
+          <mxGeometry x="1022.5" y="676.5" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-14" value="Log File" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;dashed=1;" parent="3TFgaIHxnkiX9_0JiwJC-17" vertex="1">
           <mxGeometry width="150" height="90" as="geometry" />
@@ -53,78 +56,78 @@
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-18" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1150" y="630.5" as="sourcePoint" />
-            <mxPoint x="1150" y="740" as="targetPoint" />
+            <mxPoint x="1110" y="557" as="sourcePoint" />
+            <mxPoint x="1110" y="666.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-19" value="elk 系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="762.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1380" y="689" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-21" value="工作人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;dashed=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#000000;fontSize=12;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1466" y="460" width="30" height="60.5" as="geometry" />
+          <mxGeometry x="1426" y="246.5" width="30" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-22" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;startArrow=block;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1480" y="550" as="sourcePoint" />
-            <mxPoint x="1480" y="760" as="targetPoint" />
+            <mxPoint x="1440" y="336.5" as="sourcePoint" />
+            <mxPoint x="1440" y="686.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-24" value="Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1065" y="530.5" width="165" height="99.5" as="geometry" />
+          <mxGeometry x="1025" y="457" width="165" height="99.5" as="geometry" />
         </mxCell>
-        <mxCell id="3TFgaIHxnkiX9_0JiwJC-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;提交日志&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;日志数据包括&lt;/font&gt;DeviceId &amp;amp; 日志片段&lt;font color=&quot;#999999&quot;&gt;，并且会以日志的行书，输出用户帐号/设备等信息，其中DeviceId将作为日志到设备的唯一对应关系&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="872.5" y="497.5" width="190" height="70" as="geometry" />
+        <mxCell id="3TFgaIHxnkiX9_0JiwJC-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;提交日志&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;日志数据包括&lt;/font&gt;DeviceId &amp;amp; 日志片段。&lt;font color=&quot;#999999&quot;&gt;此外还会以日志的形式，输出用户帐号/设备等信息，其中DeviceId将作为日志到设备的唯一对应关系&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="832.5" y="424" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-29" value="&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;查看日志&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;工作人员使用deviceId查询指定客户端的日志。或者通过全文检索查找用户Email地址，并找到其对应的DeviceId,进而查看该设备的全部日志&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="610" width="166" height="69.5" as="geometry" />
+          <mxGeometry x="1260" y="424" width="166" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iPhone;bgStyle=bgGreen;fillColor=#aaaaaa;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="532.5" width="80" height="130" as="geometry" />
+          <mxGeometry x="490" y="459" width="80" height="130" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-2" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#ffe6cc;strokeColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="525.5" as="sourcePoint" />
-            <mxPoint x="569.6" y="436.5" as="targetPoint" />
+            <mxPoint x="530" y="452" as="sourcePoint" />
+            <mxPoint x="529.6" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-3" value="Push Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;dashed=1;fillColor=#1EB5FF;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="50" y="547.5" width="165" height="102.5" as="geometry" />
+          <mxGeometry x="50" y="472.75" width="165" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-4" value="&lt;h2 style=&quot;font-size: 12px;&quot;&gt;User&lt;/h2&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;dashed=1;fillColor=#00ED00;strokeColor=#2D7600;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="553.25" y="820.5" width="33.75" height="60" as="geometry" />
+          <mxGeometry x="513.25" y="787" width="33.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hZahq-OuTMDOXiA8Oc48-5" value="&lt;font color=&quot;#999999&quot;&gt;由服务端下发配置更新通知，客户端收到通知后，触发RemoterConfigSyncer立即同步一次远程配置。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="246" y="600" width="230" height="67.5" as="geometry" />
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;被动触发配置更新&lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;&lt;br&gt;由服务端下发配置更新通知，客户端收到通知后，触发RemoterConfigSyncer立即同步一次远程配置。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="426.5" width="214" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;服务器配置同步器&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;包括但不限于Apollo/Store等配置中心，统一管理各类配置的同步时机&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="472" y="283.5" width="194" height="83" as="geometry" />
+          <mxGeometry x="432" y="210" width="194" height="83" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-7" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#008a00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="593.5" as="sourcePoint" />
-            <mxPoint x="740" y="593.5" as="targetPoint" />
+            <mxPoint x="580" y="520" as="sourcePoint" />
+            <mxPoint x="700" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#999999;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#008a00;gradientColor=#ffe6cc;gradientDirection=north;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="671" y="396.5" as="sourcePoint" />
-            <mxPoint x="815" y="564.5" as="targetPoint" />
+            <mxPoint x="631" y="323" as="sourcePoint" />
+            <mxPoint x="775" y="491" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="815" y="396.5" />
+              <mxPoint x="775" y="323" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-12" value="&lt;font color=&quot;#999999&quot;&gt;输出日志&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="640" y="567.5" width="80" height="16.5" as="geometry" />
+          <mxGeometry x="600" y="494" width="80" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;配置日志上报&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;基于服务端配置决定，是否需要将日志发送到服务端，以及需要发送哪些日志等。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="680" y="420" width="130" height="95" as="geometry" />
+          <mxGeometry x="640" y="346.5" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据存储&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;服务端将日志数据记录到临时存储中，可能是文件或者其他&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="643" width="110" height="70" as="geometry" />
+          <mxGeometry x="990" y="569.5" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-17" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1250" y="795" width="160" height="85" as="geometry" />
+          <mxGeometry x="1210" y="721.5" width="160" height="85" as="geometry" />
         </mxCell>
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="hZahq-OuTMDOXiA8Oc48-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -134,6 +137,18 @@
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;脚本处理&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;处理临时日志数据，将数据写入elk系统，并为DeviceId建立索引&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hZahq-OuTMDOXiA8Oc48-17">
           <mxGeometry x="11" y="5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Tahoma; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;主动触发配置更新&lt;/span&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Tahoma; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; border-color: var(--border-color); font-family: Tahoma; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 12px;&quot; color=&quot;#999999&quot;&gt;前后台切换/冷热启动/帐号变更等用户操作时机，主动更新一次服务端配置&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="631.5" width="156.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;fillColor=none;dashed=1;strokeColor=#808080;opacity=40;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="196.5" width="550" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-23" value="客户端" style="text;html=1;strokeColor=none;fillColor=#01ec01;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-24" value="服务端" style="text;html=1;strokeColor=none;fillColor=#1aa1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="180" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
