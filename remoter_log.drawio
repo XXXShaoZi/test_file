@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:48:38.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="At_wGb8eXstCgByDR61G" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:57:46.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7g8oh_3LJDOY69nJIZND" version="20.8.23" type="github">
   <diagram name="第 1 页" id="vMa4NFbPt_UTWD2TFWcF">
-    <mxGraphModel dx="2022" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,8 +84,8 @@
         <mxCell id="3TFgaIHxnkiX9_0JiwJC-29" value="&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;查看日志&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;工作人员使用deviceId查询指定客户端的日志。或者通过全文检索查找用户Email地址，并找到其对应的DeviceId,进而查看该设备的全部日志&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="410.75" width="166" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="hZahq-OuTMDOXiA8Oc48-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iPhone;bgStyle=bgGreen;fillColor=#aaaaaa;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="459" width="80" height="130" as="geometry" />
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-1" value="用户设备" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iPhone;bgStyle=bgGreen;fillColor=#FFFFFF;sketch=0;opacity=60;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="494" y="460" width="70" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-2" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#ffe6cc;strokeColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -111,7 +111,7 @@
             <mxPoint x="700" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hZahq-OuTMDOXiA8Oc48-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#999999;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#008a00;gradientColor=#ffe6cc;gradientDirection=north;" edge="1" parent="1">
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-11" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#999999;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;fillColor=#008a00;gradientColor=#ffe6cc;gradientDirection=north;startFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="631" y="323" as="sourcePoint" />
             <mxPoint x="775" y="491" as="targetPoint" />
@@ -123,7 +123,7 @@
         <mxCell id="hZahq-OuTMDOXiA8Oc48-12" value="&lt;font color=&quot;#999999&quot;&gt;输出日志&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="600" y="494" width="80" height="16.5" as="geometry" />
         </mxCell>
-        <mxCell id="hZahq-OuTMDOXiA8Oc48-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;配置日志上报&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;基于服务端配置决定，是否需要将日志发送到服务端，以及需要发送哪些日志等。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;日志上报开关&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;基于服务端配置决定，是否需要将日志发送到服务端，以及需要发送哪些日志等。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="640" y="346.5" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据存储&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;服务端将日志数据记录到临时存储中，可能是文件或者其他&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
