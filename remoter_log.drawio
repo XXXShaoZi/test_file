@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:26:50.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mgoI7_x7n-eI_vY1KZF-" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:44:21.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ph_OFb6QjDnDorx9zIYI" version="20.8.23" type="github">
   <diagram name="第 1 页" id="vMa4NFbPt_UTWD2TFWcF">
-    <mxGraphModel dx="1546" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
             <mxPoint x="770" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3TFgaIHxnkiX9_0JiwJC-12" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" parent="1" edge="1">
+        <mxCell id="3TFgaIHxnkiX9_0JiwJC-12" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="523" as="sourcePoint" />
             <mxPoint x="1030" y="523" as="targetPoint" />
@@ -149,6 +149,21 @@
         </mxCell>
         <mxCell id="hZahq-OuTMDOXiA8Oc48-27" value="&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;主动触发配置更新&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot;&gt;工前后台切换/冷热启动/帐号变更等用户操作时机，主动更新一次服务端配置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="623" width="156" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-28" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;一种可能的格式&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(248, 248, 242); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 20px; font-size: 11px; background-color: rgb(39, 40, 34);&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 11px;&quot;&gt;Api: &lt;span style=&quot;color: rgb(230, 219, 116); font-size: 11px;&quot;&gt;&quot;https://XXXXXX/log&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 11px;&quot;&gt;Header&lt;span style=&quot;color: rgb(249, 38, 114); font-size: 11px;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(230, 219, 116); font-size: 11px;&quot;&gt;&quot;deviceId:XXXXXXXX&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 11px;&quot;&gt;Body&lt;span style=&quot;color: rgb(249, 38, 114); font-size: 11px;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: rgb(102, 217, 239); font-style: italic; font-size: 11px;&quot;&gt;String&lt;/span&gt;(Log)  &lt;span style=&quot;color: rgb(136, 132, 111); font-size: 11px;&quot;&gt;// 是否需要加密｜编码？&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="40" width="300" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="hZahq-OuTMDOXiA8Oc48-30" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#CCCCCC;fontSize=11;fontColor=#000000;fillColor=#666666;gradientColor=none;gradientDirection=north;shape=flexArrow;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="391.75" as="sourcePoint" />
+            <mxPoint x="930" y="161.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="331.75" />
+              <mxPoint x="920" y="301.75" />
+              <mxPoint x="930" y="281.75" />
+              <mxPoint x="930" y="221.75" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
