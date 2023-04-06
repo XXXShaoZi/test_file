@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T12:07:24.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="s5ruOX_iEft7HQ9GNY0L" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T12:11:10.193Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dnf-6JWF_r9i0dW8iTql" version="21.1.4" type="github">
   <diagram name="第 1 页" id="LTNwtISAqPv4VPzn8hny">
     <mxGraphModel dx="1314" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="D2Xfy1oega2IfRR4Cr4I-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#23445d;fillColor=#bac8d3;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="130" y="90" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-6" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="D2Xfy1oega2IfRR4Cr4I-6" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#6666FF;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="210" as="sourcePoint" />
             <mxPoint x="160" y="350" as="targetPoint" />
@@ -19,7 +19,7 @@
         <mxCell id="D2Xfy1oega2IfRR4Cr4I-7" value="RemoteLoggerManager" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="610" y="370" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-8" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" edge="1">
+        <mxCell id="D2Xfy1oega2IfRR4Cr4I-8" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#66CC00;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="350" as="sourcePoint" />
             <mxPoint x="680" y="180" as="targetPoint" />
@@ -28,35 +28,24 @@
         <mxCell id="D2Xfy1oega2IfRR4Cr4I-9" value="Configs" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="100" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-10" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" edge="1">
+        <mxCell id="D2Xfy1oega2IfRR4Cr4I-10" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#B5739D;strokeColor=#778087;sketch=1;curveFitting=1;jiggle=2;shadow=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="190" as="sourcePoint" />
             <mxPoint x="590" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-11" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="D2Xfy1oega2IfRR4Cr4I-11" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#B5739D;strokeColor=#778087;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="149.5" as="sourcePoint" />
             <mxPoint x="380" y="149.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-12" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;dashed=1;fillColor=#bac8d3;strokeColor=#23445d;fillStyle=solid;opacity=30;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="410" as="sourcePoint" />
-            <mxPoint x="580" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-15" value="B.读取日志文件&lt;br&gt;&lt;font color=&quot;#757575&quot;&gt;日志直接输出到日志文件&lt;br&gt;远程日志管理器在合适的时机&lt;br&gt;将日志文件中的日志读取处理并上报&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="D2Xfy1oega2IfRR4Cr4I-12" vertex="1" connectable="0">
-          <mxGeometry x="-0.1041" y="6" relative="1" as="geometry">
-            <mxPoint x="-18" y="51" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="D2Xfy1oega2IfRR4Cr4I-13" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;dashed=1;fillColor=#bac8d3;strokeColor=#23445d;opacity=30;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="D2Xfy1oega2IfRR4Cr4I-13" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;dashed=1;fillColor=#FFFF33;strokeColor=#23445d;opacity=80;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="190" as="sourcePoint" />
             <mxPoint x="580" y="380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="250" y="320" />
+              <mxPoint x="210" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -73,6 +62,15 @@
         </mxCell>
         <mxCell id="2a4HkZ9IWI6ufUewGonA-3" value="客户端拉取到的Apollo配置&lt;br&gt;&lt;font color=&quot;#a6a6a6&quot;&gt;通过配置实现，日志的上报频率控制、日志筛选上报、是否上报等&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="333.75" y="50" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2a4HkZ9IWI6ufUewGonA-6" value="B.读取日志文件&lt;br&gt;&lt;font color=&quot;#757575&quot;&gt;日志直接输出到日志文件&lt;br&gt;远程日志管理器在合适的时机&lt;br&gt;将日志文件中的日志读取处理并上报&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="2a4HkZ9IWI6ufUewGonA-7" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;fillColor=#6666FF;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="405" as="sourcePoint" />
+            <mxPoint x="580" y="415" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
